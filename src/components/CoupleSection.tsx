@@ -25,10 +25,9 @@ const CoupleSection = () => {
               </h3>
               <p className="font-serif text-sage-600 italic mb-4">The Bride</p>
               <div className="h-px bg-sage-300 w-16 mx-auto mb-4"></div>
-              <p className="text-sage-500 font-sans text-sm leading-relaxed max-w-sm mx-auto">
-                Daughter of loving parents, a gentle soul with a heart full of kindness and grace. 
-                She brings joy and light wherever she goes.
-              </p>
+              {/* <p className="text-sage-500 font-sans text-sm leading-relaxed max-w-sm mx-auto">
+                The beloved youngest daughter of loving parents, a gentle soul with a heart full of kindness and grace. She brings joy and light wherever she goes.
+              </p> */}
             </div>
           </div>
 
@@ -48,10 +47,9 @@ const CoupleSection = () => {
               </h3>
               <p className="font-serif text-sage-600 italic mb-4">The Groom</p>
               <div className="h-px bg-sage-300 w-16 mx-auto mb-4"></div>
-              <p className="text-sage-500 font-sans text-sm leading-relaxed max-w-sm mx-auto">
-                Son of loving parents, a devoted man with strength and compassion. 
-                He faces life with courage and a warm heart.
-              </p>
+              {/* <p className="text-sage-500 font-sans text-sm leading-relaxed max-w-sm mx-auto">
+                The cherished eldest son of loving parents, a devoted man with strength and compassion. He faces life with courage and a warm heart.
+              </p> */}
             </div>
           </div>
         </div>
@@ -61,8 +59,7 @@ const CoupleSection = () => {
           <div className="max-w-3xl mx-auto bg-sage-50 rounded-2xl p-8 md:p-12 shadow-lg border border-sage-100">
             <div className="text-sage-400 text-4xl mb-6">💕</div>
             <blockquote className="font-serif text-sage-700 text-lg md:text-xl italic leading-relaxed mb-6">
-              "And among His signs is that He created for you mates from among yourselves, 
-              that you may dwell in tranquility with them, and He has put love and mercy between your hearts."
+              "And one of His signs is that He created for you spouses from among yourselves so that you may find comfort in them. And He has placed between you compassion and mercy. Surely in this are signs for people who reflect."
             </blockquote>
             <cite className="text-sage-500 font-sans text-sm">— Quran 30:21</cite>
           </div>
