@@ -44,7 +44,7 @@ const CoupleSection = () => {
                 <div className="text-sage-400 text-6xl">🤵🏻</div>
               </div>
               <h3 className="font-script text-3xl md:text-4xl text-sage-700 mb-2">
-                Hafiz
+                Halif
               </h3>
               <p className="font-serif text-sage-600 italic mb-4">The Groom</p>
               <div className="h-px bg-sage-300 w-16 mx-auto mb-4"></div>

@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="text-sage-200 text-3xl mb-6">❀</div>
           
           <h2 className="font-script text-3xl md:text-4xl text-cream-100 mb-4">
-            Soleehah & Hafiz
+            Soleehah & Halif
           </h2>
           
           <div className="h-px bg-gradient-to-r from-transparent via-sage-400 to-transparent w-32 mx-auto mb-6"></div>
@@ -60,12 +60,12 @@ const Footer = () => {
           <div className="mb-6">
             <h4 className="font-serif text-lg text-cream-100 mb-3">Share the Joy</h4>
             <div className="inline-block bg-sage-600 rounded-lg px-4 py-2">
-              <span className="text-sage-200 font-sans text-sm">#SoleehahHafizWedding</span>
+              <span className="text-sage-200 font-sans text-sm">#SoleehahHalifWedding</span>
             </div>
           </div>
           
           <div className="text-sage-300 font-sans text-sm">
-            <p>&copy; {currentYear} Soleehah & Hafiz Wedding</p>
+            <p>&copy; {currentYear} Soleehah & Halif Wedding</p>
             <p className="mt-2">Made with 💚 and lots of dua</p>
           </div>
         </div>

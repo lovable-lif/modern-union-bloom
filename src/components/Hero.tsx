@@ -33,7 +33,7 @@ const Hero = () => {
             AND
           </div>
           <h1 className="font-script text-6xl md:text-8xl text-sage-700 leading-tight">
-            Hafiz
+            Halif
           </h1>
         </div>
 

@@ -122,7 +122,7 @@ const Gallery = () => {
               Please share them with us using the hashtag
             </p>
             <div className="inline-block bg-white rounded-lg px-6 py-3 shadow-sm border border-sage-200">
-              <span className="font-medium text-sage-700">#SoleehahHafizWedding</span>
+              <span className="font-medium text-sage-700">#SoleehahHalifWedding</span>
             </div>
           </div>
         </div>
