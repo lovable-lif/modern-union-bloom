@@ -49,12 +49,12 @@ const Gallery = () => {
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-16 animate-fade-in-up">
-          <div className="text-sage-400 text-3xl mb-4">❀</div>
-          <h2 className="font-script text-4xl md:text-5xl text-sage-700 mb-4">
+          <div className="text-brown-400 text-3xl mb-4">❀</div>
+          <h2 className="font-script text-4xl md:text-5xl text-brown-700 mb-4">
             Memories
           </h2>
-          <div className="h-px bg-gradient-to-r from-transparent via-sage-300 to-transparent w-24 mx-auto mb-6"></div>
-          <p className="font-serif text-sage-600 text-lg italic">
+          <div className="h-px bg-gradient-to-r from-transparent via-brown-300 to-transparent w-24 mx-auto mb-6"></div>
+          <p className="font-serif text-brown-600 text-lg italic">
             Capturing moments of our journey together
           </p>
         </div>
@@ -68,7 +68,7 @@ const Gallery = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
               onClick={() => setSelectedImage(index)}
             >
-              <div className="relative overflow-hidden rounded-2xl shadow-lg bg-sage-50 aspect-[4/3]">
+              <div className="relative overflow-hidden rounded-2xl shadow-lg bg-brown-50 aspect-[4/3]">
                 <img
                   src={image.src}
                   alt={image.alt}
@@ -79,7 +79,7 @@ const Gallery = () => {
                     <p className="text-white font-serif text-sm">{image.caption}</p>
                   </div>
                 </div>
-                <div className="absolute inset-0 border-2 border-sage-200 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 border-2 border-brown-200 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </div>
           ))}
@@ -99,7 +99,7 @@ const Gallery = () => {
               />
               <button
                 onClick={() => setSelectedImage(null)}
-                className="absolute top-4 right-4 w-8 h-8 bg-white/90 rounded-full flex items-center justify-center text-sage-700 hover:bg-white transition-colors"
+                className="absolute top-4 right-4 w-8 h-8 bg-white/90 rounded-full flex items-center justify-center text-brown-700 hover:bg-white transition-colors"
               >
                 ✕
               </button>
@@ -114,15 +114,15 @@ const Gallery = () => {
 
         {/* Call to action */}
         <div className="mt-16 text-center animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
-          <div className="bg-sage-50 rounded-2xl p-8 max-w-2xl mx-auto">
-            <div className="text-sage-400 text-3xl mb-4">📸</div>
-            <h3 className="font-serif text-xl text-sage-700 mb-4">Share Your Moments</h3>
-            <p className="text-sage-600 font-sans mb-6">
+          <div className="bg-brown-50 rounded-2xl p-8 max-w-2xl mx-auto">
+            <div className="text-brown-400 text-3xl mb-4">📸</div>
+            <h3 className="font-serif text-xl text-brown-700 mb-4">Share Your Moments</h3>
+            <p className="text-brown-600 font-sans mb-6">
               We would love to see your photos from our special day! 
               Please share them with us using the hashtag
             </p>
-            <div className="inline-block bg-white rounded-lg px-6 py-3 shadow-sm border border-sage-200">
-              <span className="font-medium text-sage-700">#SoleehahHalifWedding</span>
+            <div className="inline-block bg-white rounded-lg px-6 py-3 shadow-sm border border-brown-200">
+              <span className="font-medium text-brown-700">#SoleehahHalifWedding</span>
             </div>
           </div>
         </div>

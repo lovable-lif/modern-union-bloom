@@ -57,7 +57,7 @@ const useFormField = () => {
     name: fieldContext.name,
     formItemId: `${id}-form-item`,
     formDescriptionId: `${id}-form-item-description`,
-    formMessageId: `${id}-form-item-message`,
+    formMesbrownId: `${id}-form-item-mesbrown`,
     ...fieldState,
   }
 }
@@ -105,7 +105,7 @@ const FormControl = React.forwardRef<
   React.ElementRef<typeof Slot>,
   React.ComponentPropsWithoutRef<typeof Slot>
 >(({ ...props }, ref) => {
-  const { error, formItemId, formDescriptionId, formMessageId } = useFormField()
+  const { error, formItemId, formDescriptionId, formMesbrownId } = useFormField()
 
   return (
     <Slot
@@ -114,7 +114,7 @@ const FormControl = React.forwardRef<
       aria-describedby={
         !error
           ? `${formDescriptionId}`
-          : `${formDescriptionId} ${formMessageId}`
+          : `${formDescriptionId} ${formMesbrownId}`
       }
       aria-invalid={!!error}
       {...props}
@@ -140,12 +140,12 @@ const FormDescription = React.forwardRef<
 })
 FormDescription.displayName = "FormDescription"
 
-const FormMessage = React.forwardRef<
+const FormMesbrown = React.forwardRef<
   HTMLParagraphElement,
   React.HTMLAttributes<HTMLParagraphElement>
 >(({ className, children, ...props }, ref) => {
-  const { error, formMessageId } = useFormField()
-  const body = error ? String(error?.message) : children
+  const { error, formMesbrownId } = useFormField()
+  const body = error ? String(error?.mesbrown) : children
 
   if (!body) {
     return null
@@ -154,7 +154,7 @@ const FormMessage = React.forwardRef<
   return (
     <p
       ref={ref}
-      id={formMessageId}
+      id={formMesbrownId}
       className={cn("text-sm font-medium text-destructive", className)}
       {...props}
     >
@@ -162,7 +162,7 @@ const FormMessage = React.forwardRef<
     </p>
   )
 })
-FormMessage.displayName = "FormMessage"
+FormMesbrown.displayName = "FormMesbrown"
 
 export {
   useFormField,
@@ -171,6 +171,6 @@ export {
   FormLabel,
   FormControl,
   FormDescription,
-  FormMessage,
+  FormMesbrown,
   FormField,
 }

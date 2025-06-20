@@ -8,7 +8,7 @@
 @layer base {
   :root {
     --background: 254 254 254; /* cream-50 */
-    --foreground: 48 61 48; /* sage-900 */
+    --foreground: 48 61 48; /* brown-900 */
 
     --card: 254 254 254;
     --card-foreground: 48 61 48;
@@ -16,16 +16,16 @@
     --popover: 254 254 254;
     --popover-foreground: 48 61 48;
 
-    --primary: 105 136 105; /* sage-500 */
+    --primary: 105 136 105; /* brown-500 */
     --primary-foreground: 254 254 254;
 
     --secondary: 237 231 221; /* cream-500 */
-    --secondary-foreground: 67 89 67; /* sage-700 */
+    --secondary-foreground: 67 89 67; /* brown-700 */
 
     --muted: 251 250 248; /* cream-200 */
-    --muted-foreground: 138 168 138; /* sage-400 */
+    --muted-foreground: 138 168 138; /* brown-400 */
 
-    --accent: 214 224 214; /* sage-200 */
+    --accent: 214 224 214; /* brown-200 */
     --accent-foreground: 67 89 67;
 
     --destructive: 0 84.2% 60.2%;
@@ -108,6 +108,6 @@
   
   .floral-divider::before {
     content: '❀';
-    @apply text-sage-400 text-2xl;
+    @apply text-brown-400 text-2xl;
   }
 }
