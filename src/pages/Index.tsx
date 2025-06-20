@@ -15,7 +15,6 @@ const Index = () => {
       <EventDetails />
       <LocationMap />
       {/* <Gallery /> */}
-      <RSVP />
       <Footer />
     </div>
   );

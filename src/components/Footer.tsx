@@ -8,18 +8,17 @@ const Footer = () => {
         {/* Main footer content */}
         <div className="animate-fade-in-up">
           <div className="text-sage-200 text-3xl mb-6">❀</div>
-          
+
           <h2 className="font-script text-3xl md:text-4xl text-cream-100 mb-4">
             Soleehah & Halif
           </h2>
-          
+
           <div className="h-px bg-gradient-to-r from-transparent via-sage-400 to-transparent w-32 mx-auto mb-6"></div>
-          
+
           <blockquote className="font-serif text-sage-200 text-lg italic leading-relaxed mb-8 max-w-2xl mx-auto">
-            "Our Lord, grant us from among our wives and offspring comfort to our eyes 
-            and make us an example for the righteous."
+            "Our Lord! Bless us with ˹pious˺ spouses and offspring who will be the joy of our hearts, and make us models for the righteous."
           </blockquote>
-          
+
           <cite className="text-sage-300 font-sans text-sm block mb-8">
             — Quran 25:74
           </cite>
@@ -38,7 +37,7 @@ const Footer = () => {
             </div>
             <div>
               <h3 className="font-serif text-lg text-cream-100 mb-2">Location</h3>
-              <p className="text-sage-300 font-sans">Yala, Thailand</p>
+              <p className="text-sage-300 font-sans">Bannang Sata, Thailand</p>
             </div>
           </div>
         </div>
@@ -50,7 +49,7 @@ const Footer = () => {
             Barakallahu lakuma
           </h3>
           <p className="text-sage-200 font-sans text-sm leading-relaxed">
-            May Allah bless you both and bless your union. We are grateful for your presence 
+            May Allah bless you both and bless your union. We are grateful for your presence
             in our lives and look forward to celebrating with you on our special day.
           </p>
         </div>
@@ -63,7 +62,7 @@ const Footer = () => {
               <span className="text-sage-200 font-sans text-sm">#SoleehahHalifWedding</span>
             </div>
           </div>
-          
+
           <div className="text-sage-300 font-sans text-sm">
             <p>&copy; {currentYear} Soleehah & Halif Wedding</p>
             <p className="mt-2">Made with 💚 and lots of dua</p>

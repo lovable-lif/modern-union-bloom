@@ -3,10 +3,10 @@ import { MapPin } from "lucide-react";
 
 const LocationMap = () => {
   // Coordinates for Yala, Thailand (approximate)
-  const mapSrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31516.91234567890!2d101.25!3d6.54!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b19a5555555555%3A0x5555555555555555!2sYala%2C%20Thailand!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s";
+  const mapSrc = "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3423.7753141106436!2d101.25750257499072!3d6.263442393725183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTUnNDguNCJOIDEwMcKwMTUnMzYuMyJF!5e1!3m2!1sth!2sth!4v1750432071811!5m2!1sth!2sth";
 
   return (
-    <section className="py-20 px-6 bg-sage-50" id="location">
+    <section className="px-6 bg-sage-50" id="location">
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-16 animate-fade-in-up">
@@ -26,34 +26,27 @@ const LocationMap = () => {
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-sage-100 h-full">
               <div className="flex items-center mb-6">
                 <MapPin className="w-6 h-6 text-sage-500 mr-3" />
-                <h3 className="font-serif text-xl text-sage-700">Wedding Venue</h3>
+                <h3 className="font-serif text-xl text-sage-700">Bannang Sata</h3>
               </div>
-              
+
               <div className="space-y-4 mb-6">
                 <div>
                   <h4 className="font-medium text-sage-800 mb-1">Address</h4>
-                  <p className="text-sage-600 font-sans">2/2 Bannangstar<br />Yala, Thailand</p>
+                  <p className="text-sage-600 font-sans">2/2 Moo 2 Bannang Sata Withee Road<br />T. Bannang Sata, A. Bannang Sata<br /> Yala, Thailand</p>
                 </div>
-                
+
                 <div>
-                  <h4 className="font-medium text-sage-800 mb-1">Parking</h4>
+                  <h4 className="font-medium text-sage-800 mb-1">Nearby landmarks</h4>
                   <p className="text-sage-600 font-sans text-sm">
-                    Ample parking space available for guests
-                  </p>
-                </div>
-                
-                <div>
-                  <h4 className="font-medium text-sage-800 mb-1">Transportation</h4>
-                  <p className="text-sage-600 font-sans text-sm">
-                    The venue is easily accessible by car and public transport
+                    Located opposite PTT and Hospital, Bannang Sata, with nearby landmarks for your convenience
                   </p>
                 </div>
               </div>
 
               <div className="pt-6 border-t border-sage-200">
-                <a 
-                  href="https://maps.google.com/?q=Yala,Thailand" 
-                  target="_blank" 
+                <a
+                  href="https://maps.app.goo.gl/LmtZr6UJL6j3ieZA7"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full bg-sage-500 text-white px-6 py-3 rounded-xl font-medium hover:bg-sage-600 transition-colors duration-300"
                 >
@@ -65,7 +58,7 @@ const LocationMap = () => {
           </div>
 
           {/* Map */}
-          <div className="lg:col-span-2 animate-gentle-zoom" style={{ animationDelay: '0.5s' }}>
+          <div className="lg:col-span-2 animate-gentle-zoom pb-3" style={{ animationDelay: '0.5s' }}>
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-sage-100">
               <div className="aspect-video w-full">
                 <iframe
@@ -80,34 +73,7 @@ const LocationMap = () => {
                   className="w-full h-full"
                 ></iframe>
               </div>
-              
-              <div className="p-6 bg-gradient-to-r from-sage-50 to-white">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h4 className="font-serif text-lg text-sage-700 mb-1">
-                      2/2 Bannangstar, Yala
-                    </h4>
-                    <p className="text-sage-500 font-sans text-sm">
-                      Click the map to get directions
-                    </p>
-                  </div>
-                  <div className="text-sage-400 text-2xl">🗺️</div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-
-        {/* Additional venue info */}
-        <div className="mt-12 text-center animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-sage-100 max-w-3xl mx-auto">
-            <div className="text-sage-400 text-3xl mb-4">🏡</div>
-            <h3 className="font-serif text-xl text-sage-700 mb-4">About Our Venue</h3>
-            <p className="text-sage-600 font-sans leading-relaxed">
-              Our chosen venue reflects the beauty of simplicity and nature's tranquility. 
-              Set in a peaceful location in Yala, it provides the perfect backdrop for our 
-              sacred ceremony and celebration with family and friends.
-            </p>
           </div>
         </div>
       </div>
