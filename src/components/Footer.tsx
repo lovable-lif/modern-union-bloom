@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
         {/* Event details summary */}
-        <div className="animate-fade-in-up border-t border-sage-600 pt-8 mb-8" style={{ animationDelay: '0.3s' }}>
+        <div className="hidden md:block animate-fade-in-up border-t border-sage-600 pt-8 mb-8" style={{ animationDelay: '0.3s' }}>
           <div className="grid md:grid-cols-3 gap-6 text-center">
             <div>
               <h3 className="font-serif text-lg text-cream-100 mb-2">Date</h3>

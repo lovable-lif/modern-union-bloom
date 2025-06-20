@@ -39,16 +39,15 @@ const EventDetails = () => {
                 </div>
               </div>
 
-              <div className="text-center md:text-left animate-slide-up" style={{ animationDelay: '0.7s' }}>
+              <div className="hidden md:block text-center md:text-left animate-slide-up" style={{ animationDelay: '0.7s' }}>
                 <div className="flex items-center justify-center md:justify-start mb-4">
                   <MapPin className="w-6 h-6 text-sage-500 mr-3" />
-                  <h4 className="font-serif text-xl text-sage-700">Bannang Sata</h4>
-
+                  <h4 className="font-serif text-xl text-sage-700">Location</h4>
                 </div>
                 <div className="space-y-2">
                   <p className="font-script text-2xl text-sage-800">Bannang Sata Withee Road</p>
                   <p className="font-bold text-4xl text-sage-700">Bannang Sata</p>
-                  <p className="text-sage-600">Bannang Sata, Yala, Thailand</p>
+                  <p className="text-sage-600">Yala, Thailand</p>
                   <div className="mt-4 pt-4 border-t border-sage-200">
                   </div>
                 </div>
