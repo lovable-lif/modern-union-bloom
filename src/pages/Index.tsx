@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-cream-50 to-cream-100">
       <Hero />
-      <CoupleSection />
+      {/* <CoupleSection /> */}
       <EventDetails />
       <LocationMap />
       {/* <Gallery /> */}
